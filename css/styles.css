@@ -618,3 +618,66 @@ header {
     color: #fafafa;
   }
 }
+
+/* music box */
+
+.music-box {
+  width: 100%;
+  min-height: 500px;
+  margin-top: 140px;
+  background-color: #000;
+  display: flex;
+  padding: 69px 60px 69px 56px;
+}
+
+.music-box-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  p {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #00ff66;
+  }
+
+  h3 {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 4px;
+    color: #fafafa;
+  }
+
+  a {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #fafafa;
+    background-color: #00ff66;
+    padding: 16px 48px;
+    border-radius: 4px;
+    width: 171px;
+    cursor: pointer;
+  }
+}
+
+.wrapper-circles {
+  display: flex;
+  gap: 24px;
+}
+
+.circles {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: #fff;
+}
